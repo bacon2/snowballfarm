@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:snowball] at @s if block ~ ~ ~ minecraft:cobweb run summon item ~ ~ ~ {Item:{"id":"minecraft:snowball", "Count":1s}}
+execute as @e[type=minecraft:snowball] at @s if block ~ ~ ~ minecraft:cobweb run kill @s
